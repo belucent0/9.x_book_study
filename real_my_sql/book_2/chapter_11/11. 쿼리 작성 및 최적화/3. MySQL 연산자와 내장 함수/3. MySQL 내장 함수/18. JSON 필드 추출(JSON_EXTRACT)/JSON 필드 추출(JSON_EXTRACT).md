@@ -1,0 +1,8 @@
+- -> 연산자
+	- JSON_EXTRACT('doc', '$.doc_key')
+	- doc->'$.doc_key'
+	- return : "value"
+- ->> 연산자
+	- JSON_QUOTE(JSON_EXTRACT('doc', '$.doc_key'))
+	- doc->>'$.doc_key'
+	- return : value

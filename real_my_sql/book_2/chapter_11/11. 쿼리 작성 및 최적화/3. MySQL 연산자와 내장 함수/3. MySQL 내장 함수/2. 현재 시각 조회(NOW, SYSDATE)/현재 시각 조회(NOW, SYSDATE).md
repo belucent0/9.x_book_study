@@ -1,0 +1,1 @@
+sysdate-is-now 설정을 통한 sysdate의 now 설정
