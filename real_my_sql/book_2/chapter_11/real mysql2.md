@@ -116,6 +116,9 @@ MySQL의 예약어에 대해 살펴보고 주의사항도 같이 알아보자.
 		- 11.4.10.2 [[FROM 절에 사용된 서브쿼리]]
 		- 11.4.10.3 [[WHERE 절에 사용된 서브쿼리]]
 			- 11.4.10.3.1 [[동등 또는 크다 작다 비교]]
+			- 11.4.10.3.2 [[IN 비교( IN(subquery) )]]
+			- 11.4.10.3.3 [[NOT IN 비교( NOT IN(subquery) )]]
+			- 11.4.11 [[CTE(Common Table Expression)]]
 ## JOIN
 ## GROUP BY
 ## ORDER BY
