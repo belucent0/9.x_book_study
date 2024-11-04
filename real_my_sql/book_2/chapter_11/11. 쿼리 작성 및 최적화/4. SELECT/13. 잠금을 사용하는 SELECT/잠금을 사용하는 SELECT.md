@@ -1,0 +1,4 @@
+- FOR SHARE
+	- 읽기에 대한 잠금
+- FOR UPDATE
+	- 쓰기에 대한 잠금
