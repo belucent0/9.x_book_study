@@ -135,6 +135,7 @@ MySQL의 예약어에 대해 살펴보고 주의사항도 같이 알아보자.
 - 11.5 [[INSERT]]
 	- 11.5.1 [[고급 옵션]]
 		- 11.5.1.1 [[INSERT IGNORE]]
+		- 11.5.1.2 [[INSERT ... ON DUPLICATE KEY UPDATE]]
 ## JOIN
 ## GROUP BY
 ## ORDER BY
