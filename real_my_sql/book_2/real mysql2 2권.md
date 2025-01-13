@@ -7,7 +7,7 @@ _sort:
   asc: true
   group: false
 ---
-
+****
 대소문자 구분, 문자열 표기 방법 등과 같은 SQL 작성 규칙은 MySQL 서버의 시스템 설정에 따라 달라진다.
 MySQL 서버의 시스템 설정이 쿼리에 어떤 영향을 주는지 살펴보자.
 MySQL의 예약어에 대해 살펴보고 주의사항도 같이 알아보자.
@@ -118,20 +118,24 @@ MySQL의 예약어에 대해 살펴보고 주의사항도 같이 알아보자.
 			- 11.4.10.3.1 [[동등 또는 크다 작다 비교]]
 			- 11.4.10.3.2 [[IN 비교( IN(subquery) )]]
 			- 11.4.10.3.3 [[NOT IN 비교( NOT IN(subquery) )]]
-		- 11.4.11 [[CTE(Common Table Expression)]]
-			- 11.4.11.1 [[비 재귀적 CTE(Non-Recursive CTE)]]
-			- 11.4.11.2 [[재귀적 CTE(Recursive CTE)]]
-			- 11.4.11.3 [[재귀적 CTE(Recursive CTE) 활용]]
-		- 11.4.12 [[윈도우 함수(Window Function)]]
-			- 11.4.12.1 [[쿼리 각 절의 실행 순서]]
-			- 11.4.12.2 [[윈도우 함수 기본 사용법]]
-			- 11.4.12.3 [[윈도우 함수]]
-				- 11.4.12.3.1 [[DENSE_RANK()와 RANK(), ROW_NUMBER()]]
-				- 11.4.12.3.2 [[LAG()와 LEAD()]]
-			- 11.4.12.4 [[윈도우 함수와 성능]]
-		- 11.4.13 [[잠금을 사용하는 SELECT]]
-			- 11.4.13.1 [[잠금 테이블 선택]]
-			- 11.4.13.2 [[NOWAIT & SKIP LOCKED]]
+	- 11.4.11 [[CTE(Common Table Expression)]]
+		- 11.4.11.1 [[비 재귀적 CTE(Non-Recursive CTE)]]
+		- 11.4.11.2 [[재귀적 CTE(Recursive CTE)]]
+		- 11.4.11.3 [[재귀적 CTE(Recursive CTE) 활용]]
+	- 11.4.12 [[윈도우 함수(Window Function)]]
+		- 11.4.12.1 [[쿼리 각 절의 실행 순서]]
+		- 11.4.12.2 [[윈도우 함수 기본 사용법]]
+		- 11.4.12.3 [[윈도우 함수]]
+			- 11.4.12.3.1 [[DENSE_RANK()와 RANK(), ROW_NUMBER()]]
+			- 11.4.12.3.2 [[LAG()와 LEAD()]]
+		- 11.4.12.4 [[윈도우 함수와 성능]]
+	- 11.4.13 [[잠금을 사용하는 SELECT]]
+		- 11.4.13.1 [[잠금 테이블 선택]]
+		- 11.4.13.2 [[NOWAIT & SKIP LOCKED]]
+- 11.5 [[INSERT]]
+	- 11.5.1 [[고급 옵션]]
+		- 11.5.1.1 [[INSERT IGNORE]]
+		- 11.5.1.2 [[INSERT ... ON DUPLICATE KEY UPDATE]]
 ## JOIN
 ## GROUP BY
 ## ORDER BY
